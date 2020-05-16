@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    user = User.create(user_params, credit: 100)
+    user = User.create(user_params)
     render json: user
   end
 
