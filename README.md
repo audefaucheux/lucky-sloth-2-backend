@@ -26,8 +26,8 @@ Run the seed data
 rails db:seed
 ```
 
-Run the app on the local host
+Run the app on the localhost 3004
 
 ```
-rails s
+rails s -p 3004
 ```
